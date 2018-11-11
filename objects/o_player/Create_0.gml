@@ -12,4 +12,10 @@ drag = .12;
 // Facing Directions
 facing = 1;
 
+// movement
+left = 0;
+right = 0;
+up = 0;
+down = 0;
+
 
