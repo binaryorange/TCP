@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1134b691-9e6d-45b5-bf45-5e0a6e4b138a",
+            "Value": {
+                "id": "b67d7e8f-38af-4607-b764-7beb8fefde39",
+                "resourcePath": "scripts\\player_jump_state\\player_jump_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "1f6fe7a2-8409-44e8-a939-53202bbd6231",
             "Value": {
                 "id": "3eed56fa-727e-469b-a1c1-dd06fcc656f4",
@@ -87,11 +95,27 @@
             }
         },
         {
+            "Key": "3fa86e1d-7d51-445a-830f-d4cbc9ff190a",
+            "Value": {
+                "id": "4582a0a5-6416-4f8f-b607-0456b096e80a",
+                "resourcePath": "scripts\\player_attack_state\\player_attack_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "40c25856-aeab-4051-8514-5148356f53ba",
             "Value": {
                 "id": "6b1a66f2-f265-4d6a-9774-a7e5c1ea91f3",
                 "resourcePath": "views\\40c25856-aeab-4051-8514-5148356f53ba.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "438562ce-d846-48d6-8d51-2a3ac7c9c63d",
+            "Value": {
+                "id": "5afd28d0-1982-497c-a6ff-44967c32f471",
+                "resourcePath": "scripts\\player_crouch_state\\player_crouch_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -123,6 +147,14 @@
             "Value": {
                 "id": "641a837d-c082-49d6-8c37-80ec9585085d",
                 "resourcePath": "scripts\\get_input\\get_input.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "68141621-d8bd-429e-bed0-e2ffd9c165ea",
+            "Value": {
+                "id": "918fba7e-5c5c-4087-96f4-083643cb894f",
+                "resourcePath": "scripts\\player_block_state\\player_block_state.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -220,6 +252,14 @@
                 "id": "791745aa-00fc-4102-aa70-d9239058fe49",
                 "resourcePath": "sprites\\s_player_attack\\s_player_attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9cadd22d-f73b-4ae8-ad74-8d2c0ee4890c",
+            "Value": {
+                "id": "50d61b60-a45e-4ae5-aa31-0cf26cf58030",
+                "resourcePath": "scripts\\player_crouch_block_state\\player_crouch_block_state.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -357,7 +397,12 @@
         "7d9129f8-839a-44f9-bb7f-8a17bed33713",
         "22007f19-aa73-413b-947a-96206be675d6",
         "69ddc9f6-c0d9-4329-8aa3-696f16d82aa1",
-        "3e369b90-99f1-49b6-b62a-56d097885eb7"
+        "3e369b90-99f1-49b6-b62a-56d097885eb7",
+        "1134b691-9e6d-45b5-bf45-5e0a6e4b138a",
+        "3fa86e1d-7d51-445a-830f-d4cbc9ff190a",
+        "68141621-d8bd-429e-bed0-e2ffd9c165ea",
+        "438562ce-d846-48d6-8d51-2a3ac7c9c63d",
+        "9cadd22d-f73b-4ae8-ad74-8d2c0ee4890c"
     ],
     "tutorial": ""
 }

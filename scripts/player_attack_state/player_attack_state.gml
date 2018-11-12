@@ -1,4 +1,4 @@
-/// player_idle_state
+///player_attack_state();
 // get input
 get_input();
 
@@ -6,13 +6,9 @@ get_input();
 calc_movement();
 
 // check state
-if hsp != 0 state = states.WALK;
-
-if attack {
-	state = states.ATTACK;
-	image_index = 0;
+if image_index >= image_number - image_speed {
+	if hsp != 0 state = states.WALK else state = states.IDLE;
 }
-
 // apply movements
 collision();
 
