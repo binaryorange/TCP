@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "5e77db8a-c04d-4fe0-99c0-152866ad1cc0",
+            "Value": {
+                "id": "7a03f497-3576-402e-a229-47e3d1eaccd7",
+                "resourcePath": "scripts\\jumped\\jumped.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "63430895-9d24-40dd-89a6-bd7f9d8f1710",
             "Value": {
                 "id": "641a837d-c082-49d6-8c37-80ec9585085d",
@@ -452,7 +460,8 @@
         "438562ce-d846-48d6-8d51-2a3ac7c9c63d",
         "9cadd22d-f73b-4ae8-ad74-8d2c0ee4890c",
         "e1dc71e1-3d51-4e49-a056-591a540553cd",
-        "0ee06cc8-863c-4265-a920-e1fb2ea3e9ff"
+        "0ee06cc8-863c-4265-a920-e1fb2ea3e9ff",
+        "5e77db8a-c04d-4fe0-99c0-152866ad1cc0"
     ],
     "tutorial": ""
 }

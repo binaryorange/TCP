@@ -14,8 +14,7 @@ if attack {
 }
 
 if jump {
-	state = states.JUMP;
-	vsp = jump_spd;
+	jumped();
 }
 
 if block {
