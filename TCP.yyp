@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0ee06cc8-863c-4265-a920-e1fb2ea3e9ff",
+            "Value": {
+                "id": "def039aa-ee75-483d-a20f-2b5524152964",
+                "resourcePath": "scripts\\on_ground\\on_ground.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0fd74d13-1660-4c81-a136-3384ce66f510",
             "Value": {
                 "id": "0c456c8a-94e3-4014-88af-935886badd26",
@@ -119,6 +127,14 @@
             }
         },
         {
+            "Key": "4a1f1cbb-c988-41f8-a5b1-189b48644f01",
+            "Value": {
+                "id": "15dca690-698d-4342-9111-982b97156726",
+                "resourcePath": "views\\4a1f1cbb-c988-41f8-a5b1-189b48644f01.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "4df99ce9-3b95-4518-9420-9a662bf7efec",
             "Value": {
                 "id": "6825a2dd-0b6f-407d-9446-3b5d58b49b5e",
@@ -132,6 +148,14 @@
                 "id": "78aed882-101a-4331-99dd-df91ae321568",
                 "resourcePath": "views\\5452e97d-0a02-48f9-83e5-6f3ec63abbc9.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "551ee980-8bad-4883-8386-c973c13d8461",
+            "Value": {
+                "id": "0761444d-ded5-4015-8338-62f7e0563f94",
+                "resourcePath": "tilesets\\t_collisions\\t_collisions.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -172,6 +196,14 @@
                 "id": "e35ff2e8-b22c-40dc-a59d-ff64f30ea09f",
                 "resourcePath": "scripts\\player_idle_state\\player_idle_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7031c6b6-3d18-4982-ae18-f871466a2606",
+            "Value": {
+                "id": "d3085e53-5b08-41c5-9929-ad240cd7ecb4",
+                "resourcePath": "objects\\o_game\\o_game.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -251,6 +283,14 @@
             "Value": {
                 "id": "791745aa-00fc-4102-aa70-d9239058fe49",
                 "resourcePath": "sprites\\s_player_attack\\s_player_attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9114d8dc-5e54-44b1-9d55-508e6dc152a5",
+            "Value": {
+                "id": "28a7b895-99c3-46c5-8d10-fd0c3e99444a",
+                "resourcePath": "sprites\\s_tile_collisions\\s_tile_collisions.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -351,6 +391,14 @@
             }
         },
         {
+            "Key": "e1dc71e1-3d51-4e49-a056-591a540553cd",
+            "Value": {
+                "id": "9ca957fe-1868-480e-bcac-5cb767dfcd3c",
+                "resourcePath": "scripts\\macros\\macros.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e92570ce-7722-4b6f-a0d1-d07beb413a7f",
             "Value": {
                 "id": "7474c068-a24d-47ff-b39d-651bb27db3a5",
@@ -402,7 +450,9 @@
         "3fa86e1d-7d51-445a-830f-d4cbc9ff190a",
         "68141621-d8bd-429e-bed0-e2ffd9c165ea",
         "438562ce-d846-48d6-8d51-2a3ac7c9c63d",
-        "9cadd22d-f73b-4ae8-ad74-8d2c0ee4890c"
+        "9cadd22d-f73b-4ae8-ad74-8d2c0ee4890c",
+        "e1dc71e1-3d51-4e49-a056-591a540553cd",
+        "0ee06cc8-863c-4265-a920-e1fb2ea3e9ff"
     ],
     "tutorial": ""
 }

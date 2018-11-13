@@ -13,6 +13,16 @@ if attack {
 	image_index = 0;
 }
 
+if jump {
+	state = states.JUMP;
+	vsp = jump_spd;
+}
+
+if block {
+	state = states.BLOCK;
+	hsp = 0;
+}
+
 // apply movements
 collision();
 
