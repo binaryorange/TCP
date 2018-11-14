@@ -4,4 +4,5 @@ if jumps > 0 {
 	state = states.JUMP;
 	vsp = jump_spd;
 	jumps -= 1;
+	jump_dust();
 }
