@@ -28,6 +28,8 @@ attack = 0;
 jump = 0;
 block = 0;
 jump_held = 0;
+falling = false;
+jumping = false;
 
 // camera
 o_camera.follow = o_player;

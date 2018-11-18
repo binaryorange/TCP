@@ -24,7 +24,7 @@ if jump {
 }
 
 // enable smaller jumps
-if vsp < 0 and !jump_held vsp=  max(vsp, jump_spd/jump_dampener);
+if vsp < 0 and !jump_held vsp = max(vsp, jump_spd/jump_dampener);
 
 // apply movements
 collision();

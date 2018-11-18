@@ -40,8 +40,8 @@ var t2 = tilemap_get_at_pixel(global.map, bbox_right, side + vsp);
 var t3 = tilemap_get_at_pixel(global.map, bbox_left, bbox_bottom);
 var t4 = tilemap_get_at_pixel(global.map, bbox_right, bbox_bottom);
 
-if ((t1 != VOID and (vsp > 0 or t1 != PLATFORM)) and (t3 != PLATFORM)) or 
-   ((t2 != VOID and (vsp > 0 or t2 != PLATFORM)) and (t4 != PLATFORM)){
+if ((t1 != VOID and (((vsp > 0 or t1 != PLATFORM) and t3 != PLATFORM) or (t1 = SOLID and t3 = PLATFORM)))) or
+   ((t2 != VOID and (((vsp > 0 or t2 != PLATFORM) and t4 != PLATFORM) or (t2 = SOLID and t4 = PLATFORM)))) {
 	if vsp > 0 y = y - ( y mod global.tile_size) + global.tile_size - 1 - (side - y);
 	else y = y - (y mod global.tile_size) - (side - y);
 	vsp = 0;
