@@ -1,8 +1,9 @@
 /// @description Insert description here
 draw_self();
-draw_set_color(c_lime);
-draw_text(x-50, bbox_top-15, "GROUNDED = " + string(on_ground()));
-draw_set_color(c_white);
+//draw_set_color(c_lime);
+//var _string = "GROUNDED = " + string(on_ground());
+//draw_text(x-string_width(_string)/2, bbox_top-global.tile_size, "GROUNDED = " + string(on_ground()));
+//draw_set_color(c_white);
 
 
 //draw_set_alpha(0.3);

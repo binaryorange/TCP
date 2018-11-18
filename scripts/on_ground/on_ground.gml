@@ -11,7 +11,9 @@ var t4 = tilemap_get_at_pixel(global.map, bbox_right, side);
 
 
 
-if ((t1 != VOID and (((vsp > 0 or t1 != PLATFORM) and t3 != PLATFORM) or (t1 = SOLID and t3 = PLATFORM)))) or
-   ((t2 != VOID and (((vsp > 0 or t2 != PLATFORM) and t4 != PLATFORM) or (t2 = SOLID and t4 = PLATFORM))))
+//if ((t1 != VOID and (((vsp > 0 or t1 != PLATFORM) and t3 != PLATFORM) or (t1 = SOLID and t3 = PLATFORM)))) or
+//   ((t2 != VOID and (((vsp > 0 or t2 != PLATFORM) and t4 != PLATFORM) or (t2 = SOLID and t4 = PLATFORM))))
+//		return true else return false;
+if ((t1 == SOLID or t1 == PLATFORM) and (t3 != SOLID and t3 != PLATFORM) or (t1 == SOLID and t3 == PLATFORM) or
+	(t2 == SOLID or t2 == PLATFORM) and (t4 != SOLID and t4 != PLATFORM) or (t2 == SOLID and t4 == PLATFORM))
 		return true else return false;
-		
